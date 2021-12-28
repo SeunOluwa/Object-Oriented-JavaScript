@@ -34,6 +34,7 @@ var admin = new Admin('devseunoluwa@gmail.com', 'DevSeunOluwa');
 
 var users = [userOne, userTwo, admin];
 
-admin.deleteUser(userOne);
+// admin.deleteUser(userOne);
+userOne.deleteUser(userTwo);
 
 console.log(users);
