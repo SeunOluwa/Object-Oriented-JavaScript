@@ -1,4 +1,4 @@
-// Object Literals
+// Updating Properties
 var userOne = {
     email: 'seun@gmail.com',
     name: 'Seun',
@@ -10,4 +10,4 @@ var userOne = {
     }
 }
 
-console.log(userOne.name);
+userOne.name = 'Seyi';
